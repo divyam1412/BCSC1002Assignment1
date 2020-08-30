@@ -8,19 +8,9 @@ package definitions;
 import java.util.Objects;
 
 public class Book {
-    // Components of a Definition Class in Java
-    // 1. private fields
-    // 2. public getters & setters
-    // 3. constructors for initializing the fields
-    // 4. the toString() method
-    // 5. the equals() and the hashCode() method
-
-
     private String bookName;
     private String bookAuthor;
     private String bookIsbnNumber;
-
-    // constructors to initialize the Book object.
 
     public Book() {
         this.bookName = "Mathematics";
@@ -78,11 +68,6 @@ public class Book {
         System.out.println("Thank You for returning.");
     }
 
-    /**
-     * Returns a string representation of an object.
-     *
-     * @return a string representation of an object.
-     */
     @Override
     public String toString() {
         return String.format("Book name: %s, Book Author: %s, ISBN number of Book: %s",
@@ -91,11 +76,11 @@ public class Book {
 
     /**
      * Indicates whether some other object is "equal to" this one.
-     *
      * @param o the reference object with which to compare.
      * @return {@code true} if this object is the same as the obj
      * argument; {@code false} otherwise.
      */
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -116,6 +101,4 @@ public class Book {
     public int hashCode() {
         return Objects.hash(getBookName(), getBookAuthor(), getBookIsbnNumber());
     }
-}
-
 }
