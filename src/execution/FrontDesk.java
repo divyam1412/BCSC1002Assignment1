@@ -48,7 +48,8 @@ public class FrontDesk {
                 default:
                     break;
             }
-        } while (studentInput != EXIT);
+        } 
+        while (studentInput != EXIT);
         scannerObject.close();
     }
 }
