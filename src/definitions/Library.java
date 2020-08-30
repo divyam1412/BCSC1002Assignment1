@@ -27,7 +27,6 @@ public class Library {
         }
 
     }
-    // the 'special' methods are already discussed before.
 
     @Override
     public String toString() {
@@ -46,5 +45,4 @@ public class Library {
     public int hashCode() {
         return Arrays.hashCode(getBooks());
     }
-}
 }
