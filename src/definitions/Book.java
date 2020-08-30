@@ -1,7 +1,6 @@
-/*  Created by IntelliJ IDEA.
- *  User: Divyansh Bhardwaj (dbc2201)
- *  Date: 21/08/20
- *  Time: 3:49 PM
+/*  User: Divyam goel
+ *  Date: 30/08/20
+ *  Time: 10:30
  *  File Name : Book.java
  * */
 package definitions;
