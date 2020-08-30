@@ -19,9 +19,6 @@ public class Student {
         this.studentUniversityRollNumber = studentUniversityRollNumber;
         this.numberOfBooksIssuedByStudent = numberOfBooksIssuedByStudent;
         this.booksIssued = new Book[numberOfBooksIssuedByStudent];
-        // { null, null, ..... }
-        // since every element is a Book object
-        // { new Book(), new Book(), ........ }
 
         for (int i = 0; i < booksIssued.length; i++) {
             booksIssued[i] = new Book("Book " + (i + 7), "Generic Author " + (i + 11), Long.toString(3200006000000L + (i + 12)));
