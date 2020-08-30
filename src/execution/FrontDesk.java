@@ -52,7 +52,3 @@ public class FrontDesk {
         scannerObject.close();
     }
 }
-
-
-    }
-}
